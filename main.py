@@ -2,7 +2,7 @@ import feedparser
 import time
 from os import system
 from bs4 import BeautifulSoup
-rss = feedparser.parse("https://jobs.fbk.eu/Annunci/Feed.xml") #your newspaper's rss
+rss = feedparser.parse("") #your newspaper's rss
 
 class color:
    PURPLE = '\033[95m'
